@@ -49,9 +49,9 @@ if (navigator.geolocation) {
 var mapProp= {
   
   //center:new google.maps.LatLng(lat1,lang1),
-  center: { lat: lat1, lng: lang1 },
+  center: { lat: Number(lat1), lng: Number(lang1) },
   zoom:5,
-  position: { lat: lat1, lng: lang1 },
+  position: { lat: Number(lat1), lng: Number(lang1) },
 };
 //document.getElementById("trythis").innerHTML = lat1;
 //console.log(lat1);
